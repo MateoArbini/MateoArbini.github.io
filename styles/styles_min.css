@@ -1,0 +1,55 @@
+* {
+    background-color: rgb(1, 4, 58);
+    width: 75%;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%; 
+}
+
+@media(max-width: 767px) {
+    #div {
+        border-color: chartreuse;
+        border-style: solid;
+        width: 100%;
+        margin-top: 15vh;
+    }
+    
+    #div_1 {
+        border-color: rgb(114, 46, 198);
+        border-style: solid;
+    }
+
+    #div_1_photo {
+        width: 180px;
+        height: 180px;
+        background-image: url("/images/1646340795066.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        border-radius: 50%;
+    }
+
+    #div_2 {
+        border-color: rgb(161, 133, 196);
+        border-style: solid;
+        color:blanchedalmond;
+    }
+
+    #div_2 h1 {
+        font-family: "Courier New", monospace;
+        font-size: 40px;
+        width: 100%;
+        margin-top: 1rem;
+        color:blanchedalmond;
+    }
+
+    #div_2 p {
+        font-family: "Courier New", monospace;
+        font-size: 15px;
+        width: 100%;
+        color:blanchedalmond;
+    }
+    
+}

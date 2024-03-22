@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(1, 4, 58);
+    width: 75%;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%; 
+}
+
+@media(min-width: 768px) {
+    #div {
+        display: flex;
+        width: 100%;
+        margin-top: 30vh;
+    }
+    
+    #div_1 {
+        width: 35%;
+    }
+
+    #div_1_photo {
+        width: 180px;
+        height: 180px;
+        background-image: url("/images/1646340795066.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div_2{
+        border-color: rgb(114, 46, 198);
+        border-style: solid;
+        color:blanchedalmond;
+        width: 75%;
+    }
+
+    #div_2 h1 {
+        font-family: "Courier New", monospace;
+        font-size: 35px;
+        width: 100%;
+        color:blanchedalmond;
+    }
+
+    #div_2 p {
+        font-family: "Courier New", monospace;
+        font-size: 20px;
+        width: 100%;
+        color:blanchedalmond;
+    }
+
+}
+
+
