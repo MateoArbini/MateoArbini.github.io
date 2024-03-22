@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(1, 4, 58);
+    width: 75%;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%; 
+}
+
+#div {
+    border-color: chartreuse;
+    border-style: solid;
+    display: flex;
+    width: 100%;
+}
+
+#div_text{
+    border-color: rgb(114, 46, 198);
+    border-style: solid;
+    color:blanchedalmond;
+    width: 50%;
+}
+
+#div_foto {
+    border-color: rgb(114, 46, 198);
+    border-style: solid;
+    color:blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+}
+
+#div_foto p{
+    color:blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
