@@ -10,15 +10,8 @@ body {
 
 @media(max-width: 767px) {
     #div {
-        border-color: chartreuse;
-        border-style: solid;
         width: 100%;
         margin-top: 15vh;
-    }
-    
-    #div_1 {
-        border-color: rgb(114, 46, 198);
-        border-style: solid;
     }
 
     #div_1_photo {
