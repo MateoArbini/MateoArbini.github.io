@@ -10,6 +10,7 @@ body {
 
 @media(min-width: 768px) {
     #div {
+
         display: flex;
         width: 100%;
         margin-top: 30vh;
@@ -27,23 +28,39 @@ body {
         background-size:cover;
         background-position:center center;
         border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     #div_2{
-        border-color: rgb(114, 46, 198);
-        border-style: solid;
-        color:blanchedalmond;
-        width: 75%;
+        margin-left: 1rem;
+        width: 100%;
     }
 
-    #div_2 h1 {
-        font-family: "Courier New", monospace;
-        font-size: 35px;
+    #div_2_title {
         width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #div_2_title h1{
+        position: relative; 
+	    float: left;
+        font-family: "Courier New", monospace;
+        font-size: 40px;
         color:blanchedalmond;
+        width: 100%;
+    }
+
+    #div_2_title h1 span {
+        position: absolute;
+        right: 0;
+        width: 0;
+        animation: escribir 3s steps(35);
+    }
+
+    @keyframes escribir {
+        100% { width: 0%}
+        0% { width: 100%}
     }
 
     #div_2 p {

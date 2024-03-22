@@ -24,21 +24,25 @@ body {
         border-radius: 50%;
     }
 
-    #div_2 {
-        border-color: rgb(161, 133, 196);
-        border-style: solid;
-        color:blanchedalmond;
+    #div_2_title {
+        width: 100%;
     }
-
+    
     #div_2 h1 {
         font-family: "Courier New", monospace;
-        font-size: 40px;
+        font-size: 30px;
         width: 100%;
         margin-top: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
         color:blanchedalmond;
+    }
+    
+    #div_2_title h1 span {
+        position: absolute;
+        right: 0;
+        width: 0;
     }
 
     #div_2 p {
