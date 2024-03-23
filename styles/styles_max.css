@@ -23,7 +23,7 @@ body {
     #div_1_photo {
         width: 180px;
         height: 180px;
-        background-image: url("/images/1646340795066.jpg");
+        background-image: url("/images/Personal_photo/1646340795066.jpg");
         background-repeat:no-repeat;
         background-size:cover;
         background-position:center center;
@@ -101,17 +101,33 @@ body {
         100% { width: 90}
     }
 
-    #main_carrousel {
-        width: 90%;
+    #table {
+        width: 40%;
         border-color:red;
         border-style: solid;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    #title_table {
+        width: 25%;
+        color:blanchedalmond;
+        font-family: "Courier New", monospace;
+        font-size: 12px;
     }
 
     #item {
         width: 25%;
-        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #item img {
+        width: 35%;
+        padding: 2px;
     }
 }   
 
