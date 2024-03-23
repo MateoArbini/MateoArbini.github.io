@@ -73,6 +73,46 @@ body {
         color:blanchedalmond;
     }
 
-}
+    #div_3 {
+        width: 100%;
+        margin-top: 6rem;
+    }
+
+    #div_3 h1 {
+        font-family: "Courier New", monospace;
+        font-size: 35px;
+        color:blanchedalmond;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }	
+
+    #div_3_underline {
+        width: 90%;
+        height: 1px;
+        background-color: rgb(50, 50, 50);
+        border-color: rgb(50, 50, 50);
+        margin-top: 1rem;
+        animation: underline 2s;
+    }
+
+    @keyframes underline {
+        0% { width: 0%}
+        100% { width: 90}
+    }
+
+    #main_carrousel {
+        width: 90%;
+        border-color:red;
+        border-style: solid;
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    #item {
+        width: 25%;
+        height: 25%;
+    }
+}   
 
 

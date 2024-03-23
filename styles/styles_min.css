@@ -8,7 +8,7 @@ body {
     width: 100%; 
 }
 
-@media(max-width: 767px) {
+@media(max-width: 768px) {
     #div {
         width: 100%;
         margin-top: 15vh;
@@ -55,5 +55,34 @@ body {
         width: 100%;
         color:blanchedalmond;
     }
+    
+    #div_3 {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    #div_3 h1 {
+        font-family: "Courier New", monospace;
+        font-size: 35px;
+        color:blanchedalmond;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }	
+
+    #div_3_underline {
+        width: 90%;
+        height: 1px;
+        background-color: rgb(50, 50, 50);
+        border-color: rgb(50, 50, 50);
+        margin-top: 1rem;
+        animation: underline 2s;
+    }
+
+    @keyframes underline {
+        0% { width: 0%}
+        100% { width: 90}
+    }
+
     
 }
