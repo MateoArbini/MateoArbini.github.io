@@ -34,7 +34,7 @@ body {
     }
 
     #div_2{
-        margin-left: 1rem;
+        margin-left: 1.2rem;
         width: 100%;
     }
 
@@ -73,6 +73,10 @@ body {
         color:blanchedalmond;
     }
 
+    #div_2 img {
+        width: 40px;
+    }
+
     #div_3 {
         width: 100%;
         margin-top: 6rem;
@@ -101,33 +105,26 @@ body {
         100% { width: 90}
     }
 
-    #table {
-        width: 40%;
+    #table_content {
+        width: 90%;
         border-color:red;
         border-style: solid;
         margin-top: 1.5rem;
         display: flex;
         align-items: center;
-        justify-content: left;
     }
 
-    #title_table {
-        width: 25%;
+    #table_content p {
         color:blanchedalmond;
+        width: 40%;
         font-family: "Courier New", monospace;
-        font-size: 12px;
+        font-size: 35px;
+        margin: 0%;
     }
 
-    #item {
-        width: 25%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #item img {
-        width: 35%;
-        padding: 2px;
+    #languagues_photos {
+        width: 65px;
+        padding: 1%;
     }
 }   
 
