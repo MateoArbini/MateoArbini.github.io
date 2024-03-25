@@ -4,28 +4,16 @@
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: antiquewhite;
-    filter: opacity(30%);
-    margin-top: 1rem;
-}
-
-
 body {
     width: 100%; 
 }
 
 @media(min-width: 768px) {
     #div {
-
         display: flex;
         width: 100%;
         margin-top: 30vh;
-        height: 45vh;
+        height: 46vh;
     }
     
     #div_1 {
@@ -94,9 +82,18 @@ body {
         filter: saturate(110%);
     }
 
+    #about_me {
+        width: 100%;
+        color: blanchedalmond;
+        font-family: "Courier New", monospace;
+        font-size: 20px;
+        margin-top: 1.5rem;
+        margin-bottom: 6rem;
+    }   
+
     #div_3 {
         width: 100%;
-        margin-top: 13rem;
+        margin-top: 1rem;
     }
 
     #div_3 h1 {
