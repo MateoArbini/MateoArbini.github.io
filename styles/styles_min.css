@@ -93,5 +93,72 @@ body {
         100% { width: 90}
     }
 
+    #div_4_stack p {
+        font-family: 'Courier New', monospace;
+        font-size: 20px;
+        width: 100%;
+        color: blanchedalmond;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        justify-content: left;
+        align-items: center;
+        display: flex;
+    }
+
+    #html_logo {
+        width: 43px;
+        margin-right: 2px;
+    }
+
+    #css_logo {
+        width: 43px;
+        margin-right: 2px;
+    }
+
+    #js_logo {
+        width: 48px;
+        margin-right: 2px;
+    }
+
+    #bootstrap_logo {
+        width: 60px;
+        margin-right: 1px;
+    }
+
+    #canva_logo {
+        width: 50px;
+        margin-right: 2px;
+    }
+
+    #figma_logo {
+        width: 35px;
+    }
+
+    #nodejs_logo {
+        width: 80px;
+        margin-right: 7px;
+    }
+
+    #py_logo {
+        width: 43px;
+    }
+
+    #mysql_logo {
+        width: 85px;
+        margin-right: 7px;
+    }
+
+    #sqlite_logo {
+        width: 85px;
+    }
+
+    #git_logo {
+        width: 75px;
+        margin-right: 2px;
+    }
+
+    #github_logo_stack {
+        width: 55px;
+    }
     
 }
