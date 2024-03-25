@@ -75,6 +75,11 @@ body {
 
     #div_2 img {
         width: 40px;
+        filter: opacity(50%);
+    }
+
+    #div_2 img:hover {
+        filter: saturate(110%);
     }
 
     #div_3 {
