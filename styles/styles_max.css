@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(1, 4, 58);
+    background-color: rgb(148, 151, 207);
     width: 75%;
     margin: 0 auto;
 }
@@ -23,7 +23,7 @@ body {
     #div_1_photo {
         width: 180px;
         height: 180px;
-        background-image: url("/images/Personal_photo/1646340795066.jpg");
+        background-image: url("/images/personal_photo/1646340795066.jpg");
         background-repeat:no-repeat;
         background-size:cover;
         background-position:center center;
@@ -110,26 +110,74 @@ body {
         100% { width: 90}
     }
 
-    #table_content {
+    #div_4_stack {
         width: 90%;
-        border-color:red;
-        border-style: solid;
         margin-top: 1.5rem;
         display: flex;
         align-items: center;
     }
 
-    #table_content p {
+    #div_4_stack p {
         color:blanchedalmond;
-        width: 40%;
+        width: 34%;
         font-family: "Courier New", monospace;
-        font-size: 35px;
+        font-size:30px;
         margin: 0%;
     }
 
-    #languagues_photos {
-        width: 65px;
-        padding: 1%;
+    #div_4_stack img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 7px;
+    }
+
+    #html_logo{
+        width: 55px;
+    }
+
+    #css_logo{
+        width: 56px;
+    }
+
+    #js_logo{
+        width: 53px;
+    }
+
+    #bootstrap_logo{
+        width: 66px;
+    }
+
+    #canva_logo{
+        width:56px;
+    }
+
+    #figma_logo{
+        width: 45px;
+    }
+
+    #nodejs_logo{
+        width: 107px;
+    }
+
+    #py_logo{
+        width: 60px;
+    }
+
+    #mysql_logo{
+        width: 109px;
+    }
+
+    #sqlite_logo{
+        width: 90px;
+    }
+
+    #git_logo{
+        width: 103px;
+    }
+
+    #github_logo_stack{
+        width: 53px;
     }
 }   
 
