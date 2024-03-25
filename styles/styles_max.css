@@ -4,6 +4,17 @@
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: antiquewhite;
+    filter: opacity(30%);
+    margin-top: 1rem;
+}
+
+
 body {
     width: 100%; 
 }
@@ -13,7 +24,7 @@ body {
 
         display: flex;
         width: 100%;
-        margin-top: 33vh;
+        margin-top: 30vh;
         height: 45vh;
     }
     

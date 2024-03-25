@@ -4,14 +4,25 @@
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: antiquewhite;
+    filter: opacity(30%);
+    margin-top: 1rem;
+}
+
 body {
     width: 100%; 
 }
 
+
 @media(max-width: 768px) {
     #div {
         width: 100%;
-        margin-top: 15vh;
+        margin-top: 7vh;
     }
 
     #div_1_photo {
