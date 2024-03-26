@@ -75,6 +75,28 @@ body {
     #div_2 img:hover {
         filter: saturate(110%);
     }
+
+    #links_social{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin: 0%;
+    }
+
+    #button_resume {
+        background-color: #8f8f8f;
+        font-family: 'Courier New', monospace;
+        filter: opacity(50%);
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 13px 15px;
+        border-radius: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        transition-duration: 0.4s;
+    }
     
     #about_me_title {
         width: 100%;
