@@ -74,7 +74,7 @@ body {
     }
 
     #div_2 img {
-        width: 40px;
+        width: 43px;
         filter: opacity(50%);
         transition-duration: 0.6s ;
     }
@@ -94,6 +94,7 @@ body {
     #button_resume {
         background-color: #8f8f8f;
         font-family: 'Courier New', monospace;
+        font-weight: bold;
         filter: opacity(50%);
         border: none;
         color: rgb(255, 255, 255);
