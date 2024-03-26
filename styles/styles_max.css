@@ -277,14 +277,14 @@ body {
         border-color: brown;
         border-style: solid;
         margin: 1rem;
-      }
+    }
     
-      .container_card{
+    .container_card{
         margin-top: 1rem;
         width: 100%;
-      }
+    }
 
-      .container_card h4 {
+    .container_card h4 {
         font-family: "Courier New", monospace;
         font-size: 18px;
         width: 100%;
@@ -292,9 +292,9 @@ body {
         display: flex;
         justify-content: left;
         align-items: center;
-      }
+    }
 
-      .container_card p {
+    .container_card p {
         font-family: "Courier New", monospace;
         font-size: 18px;
         color: blanchedalmond;
@@ -303,46 +303,58 @@ body {
         align-items: center;
         margin-bottom: 1.4rem;
         margin-top: 1rem;
-      }
+    }
 
-      .cards img {
+    .cards img {
         width: fit-content;
         width: 100%;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
-      }
+    }
 
-      #button_up {
+    #button_up {
         width: 100%;
+        position: fixed;
+        right: 80px;
+        bottom: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         color: blanchedalmond;
-        border-color: rgb(80, 80, 80);
+        border-color: rgb(117, 117, 117);
         border-width: 1px;
         border-style: solid;
         width: 30px;
         height: 30px;
         border-radius: 50px;
-        position: absolute;
-        padding-left: 0%;
-        margin-left: 0%;
+        animation: moveArrow 1s ease-in-out infinite alternate;
+    }
+
+    #button_up a {
+            text-decoration: none;
     }
 
     #button_up span {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: rgb(134, 134, 134);
+            width: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(134, 134, 134);
     }
 
-      #footer_div {
+    @keyframes moveArrow {
+            0% {top: 88%;}
+            100% {top: 90%;}
+    }
+
+    
+    #footer_div {
         width: 100%;
         margin-bottom: 2rem;
         margin-top: 1rem;
-      }
+    }
 
-      #footer_div p {
+    #footer_div p {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -351,9 +363,9 @@ body {
         font-family: 'Courier New', monospace;
         font-size: small;
         color: blanchedalmond;
-      }
+    }
 
-      #photo_footer {
+    #photo_footer {
         display: flex;
         align-items: center;
         justify-content: center;
