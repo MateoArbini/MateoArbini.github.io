@@ -312,6 +312,30 @@ body {
         border-top-right-radius: 30px;
       }
 
+      #button_up {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: blanchedalmond;
+        border-color: rgb(80, 80, 80);
+        border-width: 1px;
+        border-style: solid;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        position: absolute;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+
+    #button_up span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(134, 134, 134);
+    }
+
       #footer_div {
         width: 100%;
         margin-bottom: 2rem;
