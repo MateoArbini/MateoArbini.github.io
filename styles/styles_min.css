@@ -230,5 +230,37 @@ body {
     #github_logo_stack {
         width: 55px;
     }
-    
+
+    #footer_div {
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+      }
+
+      #footer_div p {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        font-family: 'Courier New', monospace;
+        font-size: small;
+        color: blanchedalmond;
+      }
+
+      #photo_footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        background-image: url("/images/personal_photo/mateo_arbini.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        border-radius: 50%;
+        box-shadow: -7px -3px 46px 11px rgba(0,0,0,0.31);
+        -webkit-box-shadow: -7px -3px 46px 11px rgba(0,0,0,0.31);
+        -moz-box-shadow: -7px -3px 46px 11px rgba(0,0,0,0.31);
+    }
 }
