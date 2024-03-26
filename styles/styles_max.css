@@ -272,9 +272,8 @@ body {
         display: flex;
         justify-content: left;
         align-items: center;
-        margin-bottom: 1rem;
+        margin-bottom: 1.4rem;
         margin-top: 1rem;
-        padding-left: 10px;
       }
 
       .cards img {
