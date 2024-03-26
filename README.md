@@ -1,5 +1,7 @@
 Personal Portfolio
 
+**FALTA ACTUALIZAR TEXTOS**
+
 Proyectos que pueden ir al portfolio:
 
 Calculadora (HTML, CSS, JS)
