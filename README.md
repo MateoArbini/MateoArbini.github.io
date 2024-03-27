@@ -1,18 +1,17 @@
 Personal Portfolio
 
-**FALTA ACTUALIZAR TEXTOS**
+**Proyectos al portfolio**:
 
-Proyectos que pueden ir al portfolio:
+- Calculadora (HTML, CSS, JS)
+- tic-tac-toe (React Introdction)
+- Loopit
+- PrintF (C)
+- Shell (C)
 
-Calculadora (HTML, CSS, JS)
-tic-tac-toe (React Introdction)
-PrintF (C)
-Shell (C)
-
-Hacer:
+**Hacer**:
 
 - AppWeather
 - Pokedex
 - ECommerce
-- crud de datos
+- CRUD de datos
 - ATM GUI
