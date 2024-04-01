@@ -253,15 +253,40 @@ body {
 
     .grid-container {
         display: grid;
+        justify-content: center;
+        align-items: center;
         margin-top: 2rem;
+        margin-bottom: 2rem;
         grid-template-columns: repeat(3, 2fr); /* Crea 5 columnas de igual tamaño */
-        gap: 40px; /* Espacio entre elementos */
+        gap: 3rem;
       }
       
     .grid-item {
         background-color: #ddd; /* Color de fondo de los elementos */
-        padding: 40px; /* Espacio interno de los elementos */
-        text-align: center; /* Alineación del texto al centro */
+        border-color: aqua;
+        border-style: solid;
+    }
+
+    .description_project {
+        border-color: aqua;
+        border-style: solid;
+        background-color: blanchedalmond;
+        width: 90%;
+        color: rgb(248, 167, 17);
+        font-size:small;
+        margin-top: 1rem;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .photo_project {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        border-style: solid;
+        border-color: brown;
     }
     
     #footer_div {
