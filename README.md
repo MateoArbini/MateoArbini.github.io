@@ -10,8 +10,9 @@ Personal Portfolio
 
 **Hacer**:
 
+- ToDo App - CRUD de datos
 - AppWeather
 - Pokedex
 - ECommerce
-- CRUD de datos
+
 - ATM GUI
