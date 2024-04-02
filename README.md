@@ -4,8 +4,6 @@ Personal Portfolio
 
 - tic-tac-toe (React Introdction)
 - Loopit
-- PrintF (C)
-- Shell (C)
 
 **Hacer**:
 
