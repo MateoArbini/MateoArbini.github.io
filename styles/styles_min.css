@@ -231,6 +231,77 @@ body {
         width: 55px;
     }
 
+    .grid-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 2rem;
+      }
+      
+    .grid-item {
+        width: 100%;
+    }
+
+    .description_project {
+        background-color: rgb(196, 196, 196);
+        width: 100%;
+        font-size: small;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description_project h2{
+        color: black;
+        width: 100%;
+        background: none;
+        font-family: 'Courier New', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .description_project p{
+        color: black;
+        background: none;
+        font-family: 'Courier New', monospace;
+        font-size: small;
+        justify-content: left;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .p_img_div {
+        background: none;
+        width: 100%;   
+    }
+
+    #github_logo_description {
+        width: 12%;
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+
+    .photo_project {
+        width: 100%;
+        background-color: rgb(196, 196, 196);
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+    .photo_project img {
+        width: 100%;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
     #footer_div {
         width: 100%;
         margin-bottom: 2rem;
