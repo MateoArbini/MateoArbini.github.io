@@ -1,12 +1,8 @@
 Personal Portfolio
 
-**Proyectos al portfolio**:
-
-- tic-tac-toe (React Introdction)
-- Loopit
-
 **Hacer**:
 
+- Cargar CV actualizado y linkearlo al boton resume
 - ToDo App - CRUD de datos
 - AppWeather
 - Pokedex
