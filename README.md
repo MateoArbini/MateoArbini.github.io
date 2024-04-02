@@ -2,7 +2,6 @@ Personal Portfolio
 
 **Proyectos al portfolio**:
 
-- Calculadora (HTML, CSS, JS)
 - tic-tac-toe (React Introdction)
 - Loopit
 - PrintF (C)
